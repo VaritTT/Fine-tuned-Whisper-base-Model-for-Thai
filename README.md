@@ -36,5 +36,5 @@ iface = gr.Interface(
 iface.launch()
 ```
 <p align="center">
-  <img src="assets/Poster_Speech-Recognition_Fine-tuned_Whisper-base_Model.png" width="400"/>
+  <img src="assets/Poster_Speech-Recognition_Fine-tuned_Whisper-base_Model.png"/>
 </p>
