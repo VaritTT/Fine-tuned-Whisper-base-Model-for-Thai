@@ -6,7 +6,7 @@
 
 ## Setup
 ```bash
-!pip install gradio
+pip install gradio
 ```
 
 
