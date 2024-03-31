@@ -37,6 +37,7 @@ iface.launch()
 ```
 
 ## Poster
+This poster showcases my presentation at the Practical Project Show for third-year Computer Science students.
 
 <p align="center">
   <img src="assets/Poster_Speech-Recognition_Fine-tuned_Whisper-base_Model.png"/>
