@@ -5,4 +5,24 @@
 </a>
 
 ## Fine-tuned Whisper-base Model for Thai Demo
-Speech Recognition model for Thai fine-tuned using [Whisper](https://openai.com/blog/whisper/) model originally from OpenAI.
+
+```py
+from transformers import pipeline
+import gradio as gr
+
+pipe = pipeline(model="Varit/whisper-base-th-project-final")
+
+def transcribe(audio):
+    text = pipe(audio)["text"]
+    return text
+
+iface = gr.Interface(
+    fn=transcribe,
+    inputs=gr.Audio(sources="upload", type="filepath"),
+    outputs="text",
+    title="Whisper base Thai",
+    description="Realtime demo for Thai speech recognition using a fine-tuned Whisper base model.",
+)
+
+iface.launch()
+```
