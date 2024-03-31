@@ -35,3 +35,6 @@ iface = gr.Interface(
 
 iface.launch()
 ```
+<p align="center">
+  <img src="assets/Fine-tuned-Whisper-base-Model-for-Thai/blob/main/assets/Poster_Speech-Recognition_Fine-tuned_Whisper-base_Model.png" width="400"/>
+</p>
