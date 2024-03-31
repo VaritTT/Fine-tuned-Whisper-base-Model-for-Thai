@@ -4,6 +4,12 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+## Setup
+```bash
+!pip install gradio
+```
+
+
 ## Fine-tuned Whisper-base Model for Thai Demo
 
 ```py
