@@ -5,7 +5,7 @@
 </a>
 
 ## Fine-tuned Whisper-base Model for Thai Demo
-Speech Recognition for Thai using Whisper-base Model from OpenAI.
+Speech Recognition for Thai using Whisper-base Model from OpenAI.\
 Dataset from Common Voice Corpus 6.1 in https://huggingface.co/datasets/mozilla-foundation/common_voice_6_1
 
 
